@@ -1,4 +1,5 @@
 n = int(input(""))
 nums = list(map(int, input("").split(" ")))
-nums.sort()
-print(f"{nums[0]} {nums[n-1]}")
+min_value = min(nums)
+max_value = max(nums)
+print(f"{min_value} {max_value}")
